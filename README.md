@@ -15,9 +15,9 @@ You will need to the leave the passphrase blank and press Enter to generate keys
 ### NOTE: Make sure to change device name in build_and_sign.sh (line no. 7)
 On root directory of your rom, run:
 
-    git clone https://github.com/GenesisOS/scripts.git -b utopia-2.0 scripts
-    chmod +x scripts/build_and_sign.sh
-    ./scripts/build_and_sign.sh
+    git clone https://github.com/Phantm7/genesis-scripts.git -b utopia-2.0 gen-scripts
+    chmod +x gen-scripts/build_and_sign.sh
+    ./gen-scripts/build_and_sign.sh
 
 # Credits:
 - [AOSP](https://source.android.com/devices/tech/ota/sign_builds)
