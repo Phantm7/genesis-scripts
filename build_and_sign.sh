@@ -4,7 +4,7 @@
 source build/envsetup.sh
 
 # Select the build configuration
-lunch lineage_mi439-ap1a-userdebug
+riseup mi439 userdebug
 
 # Build the target files package and otatools
 m target-files-package otatools
